@@ -58,6 +58,12 @@
       "Run Anchor commands:",
       "+{pm} run anchor build | test | localnet | deploy"
     ],
+    "rename": {
+      "placeholder": {
+        "to": "{{name}}",
+        "paths": ["src"]
+      }
+    },
     "versions": {
       "anchor": "0.30.1",
       "solana": "1.18.0"
