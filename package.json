@@ -59,7 +59,7 @@
       "+{pm} run anchor build | test | localnet | deploy"
     ],
     "rename": {
-      "placeholder": {
+      "scaffold": {
         "to": "{{name}}",
         "paths": ["src"]
       }
